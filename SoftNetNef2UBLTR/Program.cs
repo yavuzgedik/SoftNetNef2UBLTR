@@ -53,7 +53,7 @@ namespace SoftNetNef2UBLTR
                     {
                         TaxScheme = new UblTr.Common.TaxSchemeType()
                         {
-                            // Türe Vergi Adı Getirilmeli
+                            // Türe Göre Vergi Adı Getirilmeli
                             // Item0015 : GERÇEK USULDE KATMA DEĞER VERGİSİ
                             Name = nefEarsiv.Vergiler[i].Tur.ToString(),
                             TaxTypeCode = nefEarsiv.Vergiler[i].Tur.ToString().Replace("Item", ""),
